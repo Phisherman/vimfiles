@@ -3,3 +3,6 @@ plugins/*
 
 #every bundle except the Vundle Bundle
 !bundle/Vundle.vim
+
+#skip network history file
+.netrwhist
