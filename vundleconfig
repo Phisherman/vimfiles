@@ -1,0 +1,20 @@
+" Vundle Plugins
+set nocompatible
+filetype off
+" set the runtime path to include Vundle and initialize
+set rtp+=~/vimfiles/bundle/Vundle.vim
+
+" alternatively, pass a path where Vundle should install plugins
+call vundle#begin('~/vimfiles/plugins')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" NerdTREE
+Plugin 'scrooloose/nerdtree'
+
+" ctrlp
+Plugin 'kien/ctrlp.vim'
+
+call vundle#end()
+filetype plugin indent on
