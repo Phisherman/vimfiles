@@ -1,2 +1,5 @@
-/bundle
-/plugins
+#ignore the plugins folder, Vundle will download it automatically
+plugins/*
+
+#every bundle except the Vundle Bundle
+!bundle/Vundle.vim
